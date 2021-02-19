@@ -1,0 +1,128 @@
+html {
+  font-size: 15px;
+}
+/* @media only screen and (max-device-width : 1000px) and (orientation : landscape) {
+  html {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (orientation : portrait) {
+  html {
+    font-size: 1.5vw;
+  }
+} */
+
+body {
+  line-height: 1.5em;
+  padding: 1em;
+  margin: auto;
+  font-family: Arial;
+  font-weight: bold;
+  background: #1c1c1c;
+  color: black;
+  /*color: #6d6d6d;*/
+
+  /*background-image: url("../img/back/background.jpg");*/
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+.logo {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 3.36rem;
+}
+.logoLink:hover {
+  text-decoration: none;
+}
+.logoBack {
+  background: rgb(189,189,189);
+  background: linear-gradient(323deg, rgba(189,189,189,0.8015300711466551) 0%, rgba(54,54,54,0.7819222280094003) 100%);
+  border-radius: 1.3rem;
+  height: 8rem;
+  margin-top: 4rem;
+
+  transition: 250ms ease;
+}
+.logoBack:hover {
+  transform: scale(1.025);
+}
+.content {
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 640px;
+  width: 80%;
+
+  text-align: center;
+}
+.links {
+  margin-top: 5.6rem;
+}
+.link {
+  height: 11.68rem;
+  border-radius: 1.3rem;
+  position: relative;
+  max-width: 100%;
+  margin-top: 1.6rem;
+
+  transition: 250ms ease;
+}
+.link:hover {
+  transform: scale(1.025);
+}
+.inside {
+  margin: 0;
+
+  display: flex;
+  width: 100%;
+}
+.link img {
+  height: 9.04rem;
+  /*width: 9.04rem;*/
+  /*height: 77%; 220px hoffentlich*/
+
+  position: relative;
+  margin: 1.28rem;
+}
+.textDiv {
+  position: relative;
+  width: 100%;
+  margin-top: 1.28rem;
+  margin-bottom: 1.28rem;
+
+  color: black;
+}
+@media only screen and (max-device-width : 600px) {
+  .textDiv {
+    position: absolute;
+    visibility: hidden;
+  }
+  .link img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.header {
+  font-size: 1.6em;
+}
+.desc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.bottom {
+  position: fixed;
+  bottom: 2%;
+}
