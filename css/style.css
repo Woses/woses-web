@@ -24,8 +24,10 @@ body {
 
   /*background-image: url("../img/back/background.jpg");*/
   height: 100%; 
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  
   backdrop-filter: blur(5px);
 
   -ms-user-select: None;
