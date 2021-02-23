@@ -23,6 +23,7 @@ body {
   /*color: #6d6d6d;*/
 
   /*background-image: url("../img/back/background.jpg");*/
+  height: 100%; 
   background-attachment: fixed;
   background-size: cover;
   backdrop-filter: blur(5px);
