@@ -1,18 +1,11 @@
 html {
   font-size: 15px;
+  height: 100vh; 
 }
-/* @media only screen and (max-device-width : 1000px) and (orientation : landscape) {
-  html {
-    font-size: 1.5vw;
-  }
-}
-@media only screen and (orientation : portrait) {
-  html {
-    font-size: 1.5vw;
-  }
-} */
 
 body {
+  height: 100vh; 
+  
   line-height: 1.5em;
   padding: 1em;
   margin: auto;
@@ -20,10 +13,7 @@ body {
   font-weight: bold;
   background: #1c1c1c;
   color: black;
-  /*color: #6d6d6d;*/
 
-  /*background-image: url("../img/back/background.jpg");*/
-  height: 100vh; 
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
