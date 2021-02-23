@@ -1,16 +1,12 @@
 html {
   font-size: 15px;
+
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  backdrop-filter: blur(5px);
 }
-/* @media only screen and (max-device-width : 1000px) and (orientation : landscape) {
-  html {
-    font-size: 1.5vw;
-  }
-}
-@media only screen and (orientation : portrait) {
-  html {
-    font-size: 1.5vw;
-  }
-} */
 
 body {
   line-height: 1.5em;
@@ -18,14 +14,8 @@ body {
   margin: auto;
   font-family: Arial;
   font-weight: bold;
-  background: #1c1c1c;
   color: black;
-  /*color: #6d6d6d;*/
-
-  /*background-image: url("../img/back/background.jpg");*/
-  background-attachment: fixed;
-  background-size: cover;
-  backdrop-filter: blur(5px);
+  background-color: transparent;
 
   -ms-user-select: None;
   -moz-user-select: None;
