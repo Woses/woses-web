@@ -32,8 +32,8 @@ var links =
         "background": "linear-gradient(297deg, rgba(212,212,212,1) 5%, rgba(81,120,224,1) 59%)",
         "logo": "img/discord.png",
         "header": "Discord",
-        "desc": "Wenn ich als Beschaffungsbeauftragter mal Spiele spiele oder etwas anderes mache und dabei ausversehen die Cam mitläuft.",
-        "link": "https://www.twitch.tv/wosesfeld",
+        "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Wait what Telefonieren kann man damit auch? und das mit Tausenden Menschen Gleichzeitig.",
+        "link": "https://discord.gg/mACjtDSKjs",
         "fontColor": "black",
     },
     {
