@@ -119,7 +119,7 @@ function hover() {
 function chooseBackground(list) {
     let Dochtml = document.getElementsByTagName('html')[0];
     let random = Math.floor((Math.random() * list.length) + 1);
-    console.log(list[random - 1]);
+    //console.log(list[random - 1]);
     Dochtml.setAttribute("style", `background-image: url(img/back/${list[random - 1]})`)
 }
 
