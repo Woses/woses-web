@@ -12,7 +12,7 @@ var links =
     {
         "color": "rgb(255,255,255)",
         "background": "linear-gradient(135deg, rgba(255,165,0,1) 0%, rgba(255,210,127,1) 100%)",
-        "logo": "img/ig.png",
+        "logo": "img/instant_gaming.png",
         "header": "Instant Gaming",
         "desc": "Play Smart, Pay Less und kauf mir ein Spiel.",
         "link": "https://www.instant-gaming.com/de/user/Woses",
