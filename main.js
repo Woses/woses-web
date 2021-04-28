@@ -28,6 +28,15 @@ var links =
         "fontColor": "black",
     },
     {
+        "color": "rgb(40,18,62)",
+        "background": "linear-gradient(138deg, rgba(40,18,62,1) 0%, rgba(53,43,97,1) 100%)",
+        "logo": "img/discord.png",
+        "header": "Discord",
+        "desc": "Wenn ich als Beschaffungsbeauftragter mal Spiele spiele oder etwas anderes mache und dabei ausversehen die Cam mitläuft.",
+        "link": "https://www.twitch.tv/wosesfeld",
+        "fontColor": "black",
+    },
+    {
         "color": "rgb(15,42,102)",
         "background": "linear-gradient(349deg, rgba(15,42,102,1) 0%, rgba(37,108,150,1) 100%)",
         "logo": "img/twitter.png",
@@ -55,7 +64,7 @@ var links =
         "fontColor": "black",
     },
 ];
-let backgroundList = ["1.jpg", "2.jpg", "3.png"]
+let backgroundList = ["1.png", "2.png", "3.png"]
 
 function createContent() {
     links.forEach(element => {

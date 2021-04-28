@@ -3,9 +3,7 @@ html {
 
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  
-  backdrop-filter: blur(5px);
+  background-size: contain;
 }
 
 body {
