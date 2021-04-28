@@ -32,7 +32,7 @@ var links =
         "background": "linear-gradient(297deg, rgba(212,212,212,1) 5%, rgba(81,120,224,1) 59%)",
         "logo": "img/discord.png",
         "header": "Discord",
-        "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Wait what Telefonieren kann man damit auch? und das mit Tausenden Menschen Gleichzeitig.",
+        "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Telefonieren kann man damit auch? und das mit Tausenden Menschen Gleichzeitig.",
         "link": "https://discord.gg/mACjtDSKjs",
         "fontColor": "black",
     },
