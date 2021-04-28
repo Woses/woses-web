@@ -3,7 +3,7 @@ html {
 
   background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 100%;
 }
 
 body {
