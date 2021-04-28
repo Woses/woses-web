@@ -1,4 +1,4 @@
-var links = 
+var links =
 [
     {
         "color": "rgb(255,255,255)",
@@ -7,6 +7,15 @@ var links =
         "header": "Steam",
         "desc": "Beschaffungsbeauftragter für Spiele. Gibt eigentlich kaum ein Spiel was ich nicht irgendwo besitze.",
         "link": "https://steamcommunity.com/id/WosesT/",
+        "fontColor": "black",
+    },
+    {
+        "color": "rgb(255,255,255)",
+        "background": "linear-gradient(135deg, rgba(255,165,0,1) 0%, rgba(255,210,127,1) 100%)",
+        "logo": "img/ig.png",
+        "header": "Instant Gaming",
+        "desc": "Play Smart, Pay Less und kauf mir ein Spiel.",
+        "link": "https://www.instant-gaming.com/de/user/Woses",
         "fontColor": "black",
     },
     {
@@ -44,7 +53,16 @@ var links =
         "desc": "240 Zeichen/Müll/24h",
         "link": "https://twitter.com/wosesfeld",
         "fontColor": "black",
-    },    
+    },
+    {
+        "color": "rgb(15,42,102)",
+        "background": "linear-gradient(145deg, rgba(180,58,58,1) 0%, rgba(255,104,0,1) 13%, rgba(254,255,0,1) 27%, rgba(31,255,0,1) 37%, rgba(0,255,112,1) 47%, rgba(0,255,248,1) 56%, rgba(29,180,234,1) 61%, rgba(52,107,217,1) 65%, rgba(75,83,200,1) 69%, rgba(122,86,191,1) 76%, rgba(236,0,255,1) 83%, rgba(255,0,171,1) 88%, rgba(255,2,0,1) 92%, rgba(255,0,51,1) 95%, rgba(235,82,82,1) 97%, rgba(255,0,25,1) 97%, rgba(255,0,0,1) 100%)",
+        "logo": "img/instagram.png",
+        "header": "Instagram",
+        "desc": "Nervige Hashtags und gnadenlose Selbstvermarktung #NotSponsoredbyMySelf",
+        "link": "https://www.instagram.com/wosess/",
+        "fontColor": "black",
+    },
     {
         "color": "rgb(172,172,172)",
         "background": "linear-gradient(45deg, rgba(172,172,172,1) 0%, rgba(57,57,57,1) 100%)",
@@ -53,7 +71,7 @@ var links =
         "desc": "Hier kann man meinen Durchfall in Textform betrachten. Manchmal sogar in einer Gruppenarbeit.",
         "link": "https://github.com/Woses",
         "fontColor": "black",
-    },    
+    },
     {
         "color": "rgb(219,146,17)",
         "background": "linear-gradient(323deg, rgba(219,146,17,1) 0%, rgba(57,57,57,1) 100%)",
@@ -72,7 +90,7 @@ function createContent() {
         div.classList.add("link")
         div.setAttribute("onclick", `window.open("${element.link}", "_blank")`);
         div.setAttribute("style",`
-        background-color: ${element.color}; 
+        background-color: ${element.color};
         background-image: ${element.background};
         background-size: cover;
         `);
@@ -87,12 +105,12 @@ function createContent() {
         let img = document.createElement("img");
         let header = document.createElement("p");
         let desc = document.createElement("p");
-    
+
         img.setAttribute("src", element.logo);
         img.setAttribute("alt", element.logo)
         header.classList.add("header");
         desc.classList.add("desc");
-    
+
         header.innerHTML = element.header;
         desc.innerHTML = element.desc;
 
