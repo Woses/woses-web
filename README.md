@@ -1,3 +1,3 @@
 # Timo
 my personal website  
-entire code by [rune](https://github.com/rrune)
+not entire code but very much by [rune](https://github.com/rrune)
