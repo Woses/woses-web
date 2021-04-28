@@ -28,8 +28,8 @@ var links =
         "fontColor": "black",
     },
     {
-        "color": "rgb(40,18,62)",
-        "background": "linear-gradient(138deg, rgba(40,18,62,1) 0%, rgba(53,43,97,1) 100%)",
+        "color": "rgb(212,212,212)",
+        "background": "linear-gradient(297deg, rgba(212,212,212,1) 5%, rgba(81,120,224,1) 59%)",
         "logo": "img/discord.png",
         "header": "Discord",
         "desc": "Wenn ich als Beschaffungsbeauftragter mal Spiele spiele oder etwas anderes mache und dabei ausversehen die Cam mitläuft.",
