@@ -11,7 +11,7 @@ let Impressum = {
   view: function () {
     return m("main.impressum", [
       m("article", [
-        m("h2.center", [m("a", { href: "#!/" }, "Woses")]),
+        m("h2.center", [m("a", { href: "/" }, "Woses")]),
         m("p", "Die Webseite Woses.de wird zu Verfügung gestellt von:"),
         "T---- M----",
         m("br"),
