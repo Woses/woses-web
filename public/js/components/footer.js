@@ -7,7 +7,10 @@ let Footer = {
   },
   view: function () {
     return m("footer", [
-      m(`a.${this.font}`, { href: "#!/impressum" }, "Impressum"),
+      m(m.route.Link, {
+        selector: `a.${this.font}`,
+        href: "/impressum"
+      }, "Impressum"),
       m(`span.${this.font}`, "© 2022 Woses"),
     ]);
   },
