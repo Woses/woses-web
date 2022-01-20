@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Woses</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./static/favicon.ico" />
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body onload="load()">
-    <div class="content">
-      <a class="logoLink" href="#">
-        <div class="logoBack">
-          <h2 class="logo">Woses</h2>
-        </div>
-      </a>
+  <body>
+    <script src="https://unpkg.com/mithril/mithril.js"></script>
+    <script type="module" src="./js/app.js"></script>
 
-      <div id="links" class="links">
-      </div>
+    <div id="app"></div>
 
-      <div class="bottom" style="left: 2%;">
-        <a href="./impressum">Impressum</a>
-      </div>
-      <div class="bottom" style="right: 2%;">
-        <span>&copy; 2021 Woses</span>
-      </div>
-    </div>
+    <noscript>
+      <p class="font-light">
+        This page will only work with JavaScript enabled. Why? Felt like it,
+        could work without it if I wanted to. Sorry!
+      </p>
+      <style>
+        p {
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 2rem;
+          text-align: center;
+        }
+      </style>
+    </noscript>
   </body>
 </html>

@@ -1,3 +1,3 @@
-# Timo
+# Website
 my personal website  
-not entire code but very much by [rune](https://github.com/rrune)
+written by [rune](https://github.com/rrune)

@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+:root {
+  --background: #efefef;
+  --background-dark: #141617;
+
+  --font-color: #2b2b2b;
+  --font-color-hover: #3b3b3b;
+  --font-color-light: #dbd8d4;
+  --font-color-light-hover: #b3aca2;
+}
+
+html {
+  background-color: var(--background-dark);
+  background-position: center;
+  background-size: 100%;
+}
+
+body {
+  color: var(--font-color);
+  font-family: "Montserrat", "Open-Sans";
+}
+
+article {
+  max-width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--font-color-hover);
+  text-decoration: none;
+}
+
+/* Components */
+
+footer {
+  position: fixed;
+  width: 96%;
+  bottom: 0;
+  margin: 2%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Sites */
+.index .logo {
+  background: rgb(189, 189, 189);
+  background: linear-gradient(
+    323deg,
+    rgb(255 218 36 / 33%) 0%,
+    rgb(255 159 41 / 95%) 100%
+  );
+  border-radius: 1.3rem;
+  height: 8rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  font-size: 3rem;
+  text-align: center;
+}
+
+.index .logo h2 {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.index article .link {
+  display: flex;
+  align-items: center;
+
+  height: 11.68rem;
+  border-radius: 1.3rem;
+  position: relative;
+  max-width: 100%;
+  margin-top: 1.6rem;
+
+  background-size: cover;
+}
+
+.index article .link .text {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.index img {
+  height: 9.04rem;
+  position: relative;
+  margin: 1.28rem;
+}
+
+@media screen and (orientation: portrait) {
+  article {
+    max-width: 90vw;
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .index article .link .text {
+    display: none;
+  }
+  .index img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.impressum article {
+  max-width: 30vw;
+  color: var(--font-color-light);
+}
+
+.impressum h2 {
+  font-size: 3rem;
+}
+
+.impressum a {
+  color: var(--font-color-light);
+}
+
+.impressum a:hover {
+  color: var(--font-color-light-hover);
+}
+
+.impressum footer a,
+.impressum footer span {
+  color: var(--font-color-light);
+}
+
+/* Util */
+.center {
+  text-align: center;
+}
+
+.scale {
+  transition: 250ms ease;
+}
+
+.scale:hover {
+  transform: scale(1.025);
+}
+
+.font-light {
+  color: var(--font-color-light);
+}
+.font-light:hover {
+  color: var(--font-color-light);
+}
+.font-light a:hover {
+  color: var(--font-color-light-hover);
+}
+
+.font-dark {
+  color: var(--font-color);
+}
+.font-dark:hover {
+  color: var(--font-color);
+}
+.font-dark a:hover {
+  color: var(--font-color-hover);
+}
