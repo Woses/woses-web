@@ -1,8 +1,11 @@
 import Footer from "../components/footer.js";
 import Link from "../components/link.js";
 
+let random;
 function changeBackground() {
-  let random = Math.floor(Math.random() * 3 + 1);
+  if (!random) {
+    random = Math.floor(Math.random() * 3 + 1);
+  }
   document.querySelector(
     "html"
   ).style.backgroundImage = `url(./static/background/${random}.png)`;
