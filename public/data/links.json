@@ -81,8 +81,8 @@
     "font": "dark"
   },
   {
-    "color": "rgb(172,172,172)",
-    "background": "linear-gradient(45deg, rgba(172,172,172,1) 0%, rgba(57,57,57,1) 100%)",
+    "color": "rgb(255,141,48)",
+    "background": "linear-gradient(149deg, rgba(255,141,48,1) 0%, rgba(227,41,41,1) 100%)",
     "logo": "unraid.svg",
     "header": "UNRAID",
     "desc": "Unraid ist wie, als hätte man mehrere Rechner gleichzeitig.",
