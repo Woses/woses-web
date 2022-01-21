@@ -12,7 +12,7 @@
     "color": "rgb(11,22,34)",
     "background": "linear-gradient(90deg, rgba(11,22,34,1) 0%, rgba(37,61,89,1) 40%, rgba(2,169,255,1) 100%)",
     "logo": "anilist.png",
-    "header": "Anilist",
+    "header": "AniList",
     "desc": "Animelist",
     "link": "https://anilist.co/user/Woses",
     "font": "dark"
