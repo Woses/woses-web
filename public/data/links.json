@@ -81,6 +81,15 @@
     "font": "dark"
   },
   {
+    "color": "rgb(172,172,172)",
+    "background": "linear-gradient(45deg, rgba(172,172,172,1) 0%, rgba(57,57,57,1) 100%)",
+    "logo": "unraid.svg",
+    "header": "UNRAID",
+    "desc": "Unraid ist wie, als hätte man mehrere Rechner gleichzeitig.",
+    "link": "127.0.0.1",
+    "font": "dark"
+  },
+  {
     "color": "rgb(219,146,17)",
     "background": "linear-gradient(323deg, rgba(219,146,17,1) 0%, rgba(57,57,57,1) 100%)",
     "logo": "plex.png",
