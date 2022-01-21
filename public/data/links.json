@@ -49,7 +49,7 @@
     "background": "linear-gradient(297deg, rgba(212,212,212,1) 5%, rgba(81,120,224,1) 59%)",
     "logo": "discord.svg",
     "header": "Discord",
-    "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Telefonieren kann man damit auch? Und das mit Tausenden Menschen Gleichzeitig.",
+    "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Telefonieren kann man damit auch? Und das mit Tausenden Menschen Gleichzeitig!",
     "link": "https://discord.gg/mACjtDSKjs",
     "font": "dark"
   },
@@ -76,7 +76,7 @@
     "background": "linear-gradient(45deg, rgba(172,172,172,1) 0%, rgba(57,57,57,1) 100%)",
     "logo": "github.svg",
     "header": "Github",
-    "desc": "Hier kann man meinen Durchfall in Textform betrachten. Manchmal sogar in einer Gruppenarbeit.",
+    "desc": "Hier kann man meinen Durchfall in Textform betrachten. Manchmal sogar in Gruppenarbeiten.",
     "link": "https://github.com/Woses",
     "font": "dark"
   },
