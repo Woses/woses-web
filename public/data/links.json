@@ -9,15 +9,6 @@
     "font": "light"
   },
   {
-    "color": "rgb(11,22,34)",
-    "background": "linear-gradient(90deg, rgba(11,22,34,1) 0%, rgba(37,61,89,1) 40%, rgba(2,169,255,1) 100%)",
-    "logo": "anilist.png",
-    "header": "AniList",
-    "desc": "Animelist",
-    "link": "https://anilist.co/user/Woses",
-    "font": "dark"
-  },
-  {
     "color": "rgb(255,255,255)",
     "background": "linear-gradient(135deg, rgba(255,165,0,1) 0%, rgba(255,210,127,1) 100%)",
     "logo": "instant_gaming.png",
@@ -25,6 +16,15 @@
     "desc": "Play Smart, Pay Less und kauf mir ein Spiel.",
     "link": "https://www.instant-gaming.com/de/user/Woses",
     "font": "dark"
+  },
+  {
+    "color": "rgb(68,68,116)",
+    "background": "linear-gradient(149deg, rgba(68,68,116,1) 0%, rgba(19,19,64,1) 100%)",
+    "logo": "anilist.svg",
+    "header": "AniList",
+    "desc": "Einen List über jeden Anime den ich je gesehen habe. Warum gibt es das nicht für Netflix?",
+    "link": "https://anilist.co/user/Woses",
+    "font": "light"
   },
   {
     "color": "rgb(45,25,25)",
