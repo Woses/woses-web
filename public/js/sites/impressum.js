@@ -13,12 +13,12 @@ let Impressum = {
       m("article", [
         m("h2.center", [m(m.route.Link, {selector: "a", href: "/"}, "Woses")]),
         m("p", "Die Webseite Woses.de wird zu Verfügung gestellt von:"),
-        "T---- M----",
+        "Timo Mansfeld",
         m("br"),
         "--------------",
         m("br"),
         "--------------",
-        m("p", "Mail: ----.----[at]---.--"),
+        m("p", "Mail: website[at]woses.de"),
         m(
           "p",
           "Bei Fragen oder anderen Beschwerden bitte über die E-Mail Kontakt aufnehmen."
