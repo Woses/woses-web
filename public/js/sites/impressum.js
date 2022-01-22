@@ -4,11 +4,11 @@ function removeBackground() {
   document.querySelector("html").style.backgroundImage = "";
 }
 
-let Impressum = {
-  oninit: function () {
+const Impressum = {
+  oninit() {
     removeBackground();
   },
-  view: function () {
+  view() {
     return m("main.impressum", [
       m("article", [
         m("h2.center", [m(m.route.Link, {selector: "a", href: "/"}, "Woses")]),

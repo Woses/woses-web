@@ -1,38 +1,46 @@
 import Footer from "../components/footer.js";
 import Link from "../components/link.js";
+import Spotify from "../components/spotify.js";
 
 let random;
-function changeBackground() {
-  if (!random) {
-    random = Math.floor(Math.random() * 3 + 1);
-  }
+function changeBackground(num) {
   document.querySelector(
     "html"
-  ).style.backgroundImage = `url(./static/background/${random}.png)`;
+  ).style.backgroundImage = `url(./static/background/${num}.png)`;
 }
 
-let Index = {
-  oninit: async function () {
-    changeBackground();
+const api = {
+  url: "./data/links.json",
+  getData() {
+    return m.request({url: this.url})
+  }
+}
 
-    m.request({
-      method: "GET",
-      url: "./data/links.json",
-    }).then((data) => {
-      this.links = data.map((el) => {
-        return m(Link, { data: el });
-      });
-    });
+function links(link) {
+  return m(Link, {data: link})
+}
+
+const Index = {
+  data: undefined,
+  random: random = Math.floor(Math.random() * 3 + 1),
+
+  async oninit({state}) {
+    changeBackground(state.random)
+
+    state.data = await api.getData()
   },
-  view: function () {
+  view({state}) {
     return m("main.index", [
       m("article", [
         m("div.logo.scale", [m("h2", "Woses")]),
-        this.links ? m("div", this.links) : m("div", "Waiting for data"),
+        state.data ?  [
+          m(Spotify, {data: state.data.spotify}),
+          state.data.links.map(links)
+        ] : "Waiting for data",
       ]),
       m(Footer, { font: "dark" }),
     ]);
-  },
-};
+  }
+}
 
 export default Index;

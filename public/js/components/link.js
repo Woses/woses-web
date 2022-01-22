@@ -1,29 +1,37 @@
-let Link = {
-  oninit: function (vnode) {
-    this.data = vnode.attrs.data;
+import ListElement from "./listElement.js";
 
-    this.theme = "font-dark";
-    if (this.data.font == "light") {
-      this.theme = "font-light";
-    }
-  },
-  view: function () {
-    return m(
-      "a.link.scale",
-      {
-        href: this.data.link,
-        style: `background-color: ${this.data.color}; 
-                background-image: ${this.data.background};`,
+/* function Link(initialVnode) {
+  let data = initialVnode.attrs.data
+
+  return {
+    view: () => {
+      return m(ListElement, {
+        data: data,
       },
-      [
-        m("img", { src: `./static/${this.data.logo}`, alt: this.data.logo }),
-        m(`div.text.${this.theme}`, [
-          m("h4", this.data.header),
-          m("p", this.data.desc),
-        ]),
-      ]
-    );
+      m("div.text", [
+        m("h4", data.header),
+        m("p", data.desc),
+      ]));
+    },
+  }
+} */
+
+const Link = {
+  data: undefined,
+
+  oninit({attrs, state}) {
+    state.data = attrs.data
   },
-};
+  view({state}) {
+    return m(ListElement, {
+      data: state.data,
+    },
+    m("div.text", [
+      m("h4", state.data.header),
+      m("p", state.data.desc),
+    ]));
+  }
+}
+
 
 export default Link;

@@ -1,17 +1,18 @@
-let Footer = {
-  oninit: function (vnode) {
-    this.font = "font-light";
-    if (vnode.attrs.font == "dark") {
-      this.font = "font-dark";
+const Footer = {
+  font: "font-light",
+  oninit({attrs, state}) {
+    state.font = "font-light";
+    if (attrs.font == "dark") {
+      state.font = "font-dark";
     }
   },
-  view: function () {
+  view({state}) {
     return m("footer", [
       m(m.route.Link, {
-        selector: `a.${this.font}`,
+        selector: `a.${state.font}`,
         href: "/impressum"
       }, "Impressum"),
-      m(`span.${this.font}`, "© 2022 Woses"),
+      m(`span.${state.font}`, "© 2022 Woses"),
     ]);
   },
 };
