@@ -101,9 +101,9 @@
     }
   ],
   "spotify": {
-    "color": "rgb(219,146,17)",
-    "background": "linear-gradient(323deg, rgba(219,146,17,1) 0%, rgba(57,57,57,1) 100%)",
-    "logo": "plex.png",
+    "color": "rgb(2,133,2)",
+    "background": "linear-gradient(149deg, rgba(2,133,2,1) 0%, rgba(20,255,20,1) 100%)",
+    "logo": "spotify.png",
     "header": "Spotify",
     "link": "127.0.0.1",
     "font": "dark"
