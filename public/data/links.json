@@ -96,7 +96,7 @@
       "logo": "plex.png",
       "header": "Plex",
       "desc": "Mein Privater Plex Server. Einfach nur, weil ich schon zu viel auf meinem Rechner/NAS/Server rumfliegen habe.",
-      "link": "127.0.0.1",
+      "link": "https://127.0.0.1",
       "font": "dark"
     }
   ],
@@ -105,7 +105,7 @@
     "background": "linear-gradient(149deg, rgba(2,133,2,1) 0%, rgba(20,230,20,1) 100%)",
     "logo": "spotify.svg",
     "header": "Spotify",
-    "link": "127.0.0.1",
+    "link": "https://open.spotify.com/user/1195817362",
     "font": "dark"
   }
 }
