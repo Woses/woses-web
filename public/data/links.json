@@ -103,7 +103,7 @@
   "spotify": {
     "color": "rgb(2,133,2)",
     "background": "linear-gradient(149deg, rgba(2,133,2,1) 0%, rgba(20,255,20,1) 100%)",
-    "logo": "spotify.png",
+    "logo": "spotify.svg",
     "header": "Spotify",
     "link": "127.0.0.1",
     "font": "dark"

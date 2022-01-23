@@ -14,23 +14,32 @@ const Spotify = {
   async oninit({attrs ,state}) {
     state.data = attrs.data
     try {
-      state.apiData = (await api.getData()).Data
+      state.apiData = await api.getData()
     } catch (error) {
-      console.log("fuck", error);
+      console.log("Spotify: ", error);
+      state.apiData.error = true
     }
+
+    setInterval(() => {
+      try {
+        state.apiData = await api.getData()
+      } catch (error) {
+        console.log("Spotify: ", error);
+        state.apiData.error = true
+      }
+    }, 60000)
   },
   view({state}) {
     return m(
       ListElement,
       { data: state.data },
       m("div.text", [
-        state.apiData ? [
-          state.apiData[0]["@attr"].nowplaying ? 
-            m("p", "Now Playing:")
-           :m("p", "Last Played:"),
-          m("p", `Name: ${state.apiData[0].name}`),
-          m("p", `Artist: ${state.apiData[0].artist["#text"]}`),
-        ] : "Loading"
+        state.apiData.Data ? [
+          state.apiData.Data[0]["@attr"].nowplaying ? 
+            m("p", "Hört gerade:")
+           :m("p", "Zuletzt gehört:"),
+          m("p", `${state.apiData.Data[0].artist["#text"]} - ${state.apiData.Data[0].name}`),
+        ] : state.apiData.error ? "Fehler" : "Lädt..."
       ])
     );
   }
