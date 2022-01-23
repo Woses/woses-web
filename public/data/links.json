@@ -10,6 +10,15 @@
       "font": "light"
     },
     {
+      "color": "rgb(248,255,0)",
+      "background": "linear-gradient(149deg, rgba(248,255,0,1) 0%, rgba(97,36,0,1) 100%)",
+      "logo": "blog.svg",
+      "header": "Blog",
+      "desc": "Wenn ich mal Lust habe schreibe ich etwas in den Block",
+      "link": "https://woses.de/blog/",
+      "font": "light"
+    },
+    {
       "color": "rgb(255,255,255)",
       "background": "linear-gradient(135deg, rgba(255,165,0,1) 0%, rgba(255,210,127,1) 100%)",
       "logo": "instant_gaming.png",
