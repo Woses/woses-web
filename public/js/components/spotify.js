@@ -10,22 +10,23 @@ const api = {
 const Spotify = {
   data: undefined,
   apiData: undefined,
+  error: false,
 
   async oninit({attrs ,state}) {
     state.data = attrs.data
     try {
-      state.apiData = await api.getData()
+      state.apiData = (await api.getData()).Data
     } catch (error) {
       console.log("Spotify: ", error);
-      state.apiData.error = true
+      state.error = true
     }
 
-    setInterval(() => {
+    setInterval(async () => {
       try {
-        state.apiData = await api.getData()
+        state.apiData = (await api.getData()).Data
       } catch (error) {
         console.log("Spotify: ", error);
-        state.apiData.error = true
+        state.error = true
       }
     }, 60000)
   },
@@ -34,12 +35,12 @@ const Spotify = {
       ListElement,
       { data: state.data },
       m("div.text", [
-        state.apiData.Data ? [
-          state.apiData.Data[0]["@attr"].nowplaying ? 
+        state.apiData ? [
+          state.apiData[0]["@attr"].nowplaying ? 
             m("p", "Hört gerade:")
            :m("p", "Zuletzt gehört:"),
-          m("p", `${state.apiData.Data[0].artist["#text"]} - ${state.apiData.Data[0].name}`),
-        ] : state.apiData.error ? "Fehler" : "Lädt..."
+          m("p", `${state.apiData[0].artist["#text"]} - ${state.apiData[0].name}`),
+        ] : state.error ? "Fehler" : "Lädt..."
       ])
     );
   }
