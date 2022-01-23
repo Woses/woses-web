@@ -76,6 +76,7 @@ footer {
 .index article .link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   height: 11.68rem;
   border-radius: 1.3rem;
@@ -97,6 +98,10 @@ footer {
   height: 9.04rem;
   position: relative;
   margin: 1.28rem;
+}
+
+.index img.spotify {
+  border-radius: 8px;
 }
 
 @media screen and (orientation: portrait) {
