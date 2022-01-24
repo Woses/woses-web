@@ -1,6 +1,10 @@
 [
     {
-        "name": "test",
+        "title": "Ein test für den besten artikel überhaupt",
         "file": "test.html"
+    },
+    {
+        "title": "Ein test für den zweitbesten artikel überhaupt",
+        "file": "test2.html"
     }
 ]

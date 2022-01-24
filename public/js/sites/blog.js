@@ -8,23 +8,48 @@ const api = {
   },
 };
 
+function removeBackground() {
+  document.querySelector("html").style.backgroundImage = "";
+}
+
 const Blog = {
   data: undefined,
-  articles: [],
+  article: undefined,
 
   async oninit({ state }) {
+    removeBackground()
     try {
       state.data = await api.getData();
-
-      state.data.forEach(async (article) => {
-        state.articles.push(await api.getArticle(article.file));
-      });
     } catch (error) {
       console.log(error);
     }
   },
   view({ state }) {
-    return state.articles[0] ? m.trust(state.articles[0]) : "Loading";
+    return m(
+      "main.blog",
+      state.data
+        ? [
+            m("div.blog-list", [
+              m("h1", m(m.route.Link, {selector: "a", href: "/"} , "Woses")),
+              m("ul", [state.data.map(({title, file}, i) => {
+                return [
+                  i != 0 ? m("hr") : "" ,
+                  m("li", {
+                    //this is gonna change when each article gets its own link
+                    onclick: async () => {
+                      state.article = await api.getArticle(file)
+                    }
+                  } ,title)
+                ]
+              })]),
+            ]),
+            m("article", state.article 
+              ? m.trust(state.article)
+              : "Wähle Artikel"
+            )
+          ]
+        : "Lädt..."
+    );
   },
 };
 

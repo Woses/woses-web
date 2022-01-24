@@ -27,6 +27,12 @@ article {
   margin-right: auto;
 }
 
+@media screen and (orientation: portrait) {
+  article {
+    max-width: 90vw;
+  }
+}
+
 a {
   color: var(--font-color);
   text-decoration: none;
@@ -78,11 +84,11 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-  height: 11.68rem;
-  border-radius: 1.3rem;
+  height: 11.68em;
+  border-radius: 1.3em;
   position: relative;
   max-width: 100%;
-  margin-top: 1.6rem;
+  margin-top: 1.6em;
 
   background-size: cover;
 }
@@ -90,24 +96,18 @@ footer {
 .index article .link .text {
   width: 100%;
   text-align: center;
-  padding: 1rem;
+  padding: 1em;
   overflow: hidden;
 }
 
 .index img {
-  height: 9.04rem;
+  height: 9.04em;
   position: relative;
-  margin: 1.28rem;
+  margin: 1.28em;
 }
 
 .index img.spotify {
   border-radius: 8px;
-}
-
-@media screen and (orientation: portrait) {
-  article {
-    max-width: 90vw;
-  }
 }
 
 @media only screen and (max-device-width: 500px) {
@@ -120,13 +120,54 @@ footer {
   }
 }
 
+/* blog */
+.blog {
+  color: var(--font-color-light);
+}
+
+.blog .blog-list {
+  height: 100%;
+  width: 18vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+.blog .blog-list h1 {
+  text-align: center;
+}
+
+.blog .blog-list ul {
+  list-style-type: none;
+  padding: 0 0 0 1em;
+  margin: 0;
+}
+
+.blog .blog-list li {
+/*   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  padding: 0.3em 0 0.3em 0;
+}
+
+.blog .blog-list li:hover {
+  cursor: pointer;
+  color: var(--font-color-light-hover);
+}
+
+/* impressum */
+
 .impressum article {
   max-width: 30vw;
   color: var(--font-color-light);
 }
 
 .impressum h2 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .impressum a {
