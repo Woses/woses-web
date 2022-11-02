@@ -14,7 +14,7 @@
       "background": "linear-gradient(149deg, rgba(248,255,0,1) 0%, rgba(97,36,0,1) 100%)",
       "logo": "blog.svg",
       "header": "Blog",
-      "desc": "Wenn ich mal Lust habe schreibe ich etwas in den Block",
+      "desc": "Wenn ich mal Lust habe schreibe ich etwas in den Blog",
       "link": "https://woses.de/blog/",
       "font": "light"
     },
@@ -32,7 +32,7 @@
       "background": "linear-gradient(149deg, rgba(68,68,116,1) 0%, rgba(19,19,64,1) 100%)",
       "logo": "anilist.svg",
       "header": "AniList",
-      "desc": "Einen List über jeden Anime den ich je gesehen habe. Warum gibt es das nicht für Netflix?",
+      "desc": "Eine Liste über jeden Anime, den ich je gesehen habe. Warum gibt es das nicht für Netflix?",
       "link": "https://anilist.co/user/Woses",
       "font": "light"
     },
@@ -41,7 +41,7 @@
       "background": "linear-gradient(138deg, rgba(45,25,25,1) 0%, rgba(195,19,41,1) 100%)",
       "logo": "youtube.svg",
       "header": "YouTube",
-      "desc": "Memes, Speed Edits aber keine Seriöse Arbeit die wird wo anders hochgeladen.",
+      "desc": "Memes, Speed Edits, aber keine Seriöse Arbeit, die wird wo anders hochgeladen.",
       "link": "https://www.youtube.com/channel/UCVrgqe9p_mSczxFXZycDcuw",
       "font": "light"
     },
@@ -95,7 +95,7 @@
       "background": "linear-gradient(149deg, rgba(255,141,48,1) 0%, rgba(227,41,41,1) 100%)",
       "logo": "unraid.svg",
       "header": "UNRAID",
-      "desc": "Unraid ist wie, als hätte man mehrere Rechner gleichzeitig.",
+      "desc": "Unraid ist wie als hätte man mehrere Rechner gleichzeitig.",
       "link": "127.0.0.1",
       "font": "dark"
     },
