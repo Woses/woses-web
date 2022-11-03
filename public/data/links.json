@@ -27,7 +27,8 @@
       "header": "Instant Gaming",
       "desc": "Play Smart, Pay Less und kauf mir ein Spiel.",
       "link": "https://www.instant-gaming.com/de/user/Woses",
-      "font": "dark"
+      "font": "dark",
+      "classes": ""
     },
     {
       "color": "rgb(68,68,116)",
