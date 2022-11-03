@@ -11,7 +11,7 @@ const ListElement = {
   },
   view({state, children}) {
     return m(
-      `a.link.scale.${state.theme}`,
+      `a.link.scale.${state.theme}.${state.data.classes}`,
       {
         href: state.data.link,
         style: `background-color: ${state.data.color}; 

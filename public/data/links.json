@@ -7,7 +7,8 @@
       "header": "Steam",
       "desc": "Beschaffungsbeauftragter für Spiele. Gibt eigentlich kaum ein Spiel was ich nicht irgendwo besitze.",
       "link": "https://steamcommunity.com/id/WosesT/",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(248,255,0)",
@@ -16,7 +17,8 @@
       "header": "Blog",
       "desc": "Wenn ich mal Lust habe schreibe ich etwas in den Blog",
       "link": "https://woses.de/blog/",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(255,255,255)",
@@ -34,7 +36,8 @@
       "header": "AniList",
       "desc": "Eine Liste über jeden Anime, den ich je gesehen habe. Warum gibt es das nicht für Netflix?",
       "link": "https://anilist.co/user/Woses",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(45,25,25)",
@@ -43,7 +46,8 @@
       "header": "YouTube",
       "desc": "Memes, Speed Edits, aber keine Seriöse Arbeit, die wird wo anders hochgeladen.",
       "link": "https://www.youtube.com/channel/UCVrgqe9p_mSczxFXZycDcuw",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(40,18,62)",
@@ -52,7 +56,8 @@
       "header": "Twitch",
       "desc": "Wenn ich als Beschaffungsbeauftragter mal Spiele spiele oder etwas anderes mache und dabei ausversehen die Cam mitläuft.",
       "link": "https://www.twitch.tv/wosesfeld",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(212,212,212)",
@@ -61,7 +66,8 @@
       "header": "Discord",
       "desc": "Ist wie SMS nur Online und geht trotzdem unterwegs. Telefonieren kann man damit auch? Und das mit Tausenden Menschen Gleichzeitig!",
       "link": "https://discord.gg/mACjtDSKjs",
-      "font": "dark"
+      "font": "dark",
+      "classes" : ""
     },
     {
       "color": "rgb(15,42,102)",
@@ -70,7 +76,8 @@
       "header": "Twitter",
       "desc": "240 Zeichen/Müll/24h",
       "link": "https://twitter.com/wosesfeld",
-      "font": "light"
+      "font": "light",
+      "classes" : ""
     },
     {
       "color": "rgb(15,42,102)",
@@ -79,7 +86,8 @@
       "header": "Instagram",
       "desc": "Nervige Hashtags und gnadenlose Selbstvermarktung #NotSponsoredbyMySelf",
       "link": "https://www.instagram.com/wosess/",
-      "font": "dark"
+      "font": "dark",
+      "classes" : ""
     },
     {
       "color": "rgb(172,172,172)",
@@ -88,7 +96,8 @@
       "header": "Github",
       "desc": "Hier kann man meinen Durchfall in Textform betrachten. Manchmal sogar in Gruppenarbeiten.",
       "link": "https://github.com/Woses",
-      "font": "dark"
+      "font": "dark",
+      "classes" : ""
     },
     {
       "color": "rgb(255,141,48)",
@@ -97,7 +106,8 @@
       "header": "UNRAID",
       "desc": "Unraid ist wie als hätte man mehrere Rechner gleichzeitig.",
       "link": "127.0.0.1",
-      "font": "dark"
+      "font": "dark",
+      "classes" : ""
     },
     {
       "color": "rgb(219,146,17)",
@@ -106,7 +116,8 @@
       "header": "Plex",
       "desc": "Mein Privater Plex Server. Einfach nur, weil ich schon zu viel auf meinem Rechner/NAS/Server rumfliegen habe.",
       "link": "https://127.0.0.1",
-      "font": "dark"
+      "font": "dark",
+      "classes" : ""
     }
   ],
   "spotify": {
@@ -115,6 +126,7 @@
     "logo": "spotify.svg",
     "header": "Spotify",
     "link": "https://open.spotify.com/user/1195817362",
-    "font": "dark"
+    "font": "dark",
+    "classes" : ""
   }
 }
