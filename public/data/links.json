@@ -119,6 +119,16 @@
       "link": "https://127.0.0.1",
       "font": "dark",
       "classes" : ""
+    },
+    {
+      "color": "rgb(54,173,25)";
+      "background": "linear-gradient(160deg, rgba(54,173,25,1) 0%, rgba(116,93,25,1) 100%)";
+      "logo": "minecarft.svg",
+      "header": "Minecraft",
+      "desc": "Mein eigener Minecraft-Server. Auch du kannst drauf.",
+      "link": "https://mc.woses.de",
+      "font": "light",
+      "classes" : ""
     }
   ],
   "spotify": {
