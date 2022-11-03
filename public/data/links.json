@@ -136,7 +136,7 @@
       "logo": "mmm.png",
       "header": "Magic Mirror",
       "desc": "Info-Panel",
-      "link": "https://http://mmm.woses.de:8787/",
+      "link": "http://mmm.woses.de:8787/",
       "font": "dark",
       "classes" : ""
     }
