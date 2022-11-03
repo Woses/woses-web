@@ -129,6 +129,16 @@
       "link": "https://mc.woses.de",
       "font": "light",
       "classes" : ""
+    },
+    {
+      "color": "rgb(255,255,255)",
+      "background": "linear-gradient(160deg, rgba(255,255,255,0.5956583316920518) 0%, rgba(0,0,0,1) 100%)",
+      "logo": "mmm.png",
+      "header": "Magic Mirror",
+      "desc": "Info-Panel",
+      "link": "https://http://mmm.woses.de:8787/",
+      "font": "dark",
+      "classes" : ""
     }
   ],
   "spotify": {
